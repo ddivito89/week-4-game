@@ -1,0 +1,20 @@
+.character{
+  height:170px;
+  width:170px;
+  background:grey;
+  margin: 20px;
+}
+.charName{
+  text-align: center;
+  font-weight: bold;
+}
+.charHealth{
+  text-align: center;
+  font-weight: bold;
+}
+img{
+  height:125px;
+  width:125px;
+  display: block;
+  margin: auto;
+}
