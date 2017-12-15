@@ -1,20 +1,52 @@
-.character{
-  height:170px;
-  width:170px;
-  background:grey;
+body {
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+button {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #f44336;
+  border: 2px solid white;
+}
+
+.character {
+  color: white;
+  height: 170px;
+  width: 170px;
+  background: black;
   margin: 20px;
 }
-.charName{
+
+.charName {
   text-align: center;
   font-weight: bold;
 }
-.charHealth{
+
+.charHealth {
   text-align: center;
   font-weight: bold;
 }
-img{
-  height:125px;
-  width:125px;
+
+img {
+  height: 125px;
+  width: 125px;
   display: block;
   margin: auto;
 }
