@@ -55,8 +55,9 @@ var startGame = function() {
       this.is_hero = true;
 
       heroDiv.html('<H1>Hero</H1>');
-      villainsDiv.html('<H1>Defender</H1>');
-      defenderDiv.html('<H1>Villains</H1>');
+      defenderDiv.html('<H1>Defender</H1>');
+      villainsDiv.html('<H1>Villains</H1>');
+
 
       for (i = 0; i < charArray.length; i++) {
         villainsDiv.append(charArray[i]);
